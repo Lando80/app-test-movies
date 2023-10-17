@@ -1,0 +1,28 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    /* aula 14 */
+    min-width: 380px;
+    max-width: 1200px;
+    /* background-color: green; */
+
+    margin: 0 auto;
+    align-items: center;
+}
+
+.category div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: yellow; */
+    gap: 5px;
+    /* aula14 */
+    width: 100%;
+    height: 150px;
+    /* padding-left: 8px; */
+    /* padding-right: 8px; */
+}
+
+.category h2 {
+    padding-block: 1rem;
+}

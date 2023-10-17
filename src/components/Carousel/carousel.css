@@ -1,0 +1,11 @@
+.slick-prev:before,
+.slick-next:before {
+    /* color: red; */
+    font-size: 2rem;
+}
+
+.test{
+    background-color: orange;
+    padding-left: 20px;
+    /* margin-left: 20px; */
+}
