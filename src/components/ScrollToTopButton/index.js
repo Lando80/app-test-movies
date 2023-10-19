@@ -10,7 +10,7 @@ function ScrollToTopButton(){
     }
 
     return(
-        <button onClick={handleClick}>
+        <button className={styles.button} onClick={handleClick}>
             &#9650;
         </button>
     )
